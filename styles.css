@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Kumbh+Sans&family=Outfit&display=swap');
+
+/* Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+img, svg {
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* || variables */
+:root {
+    --primary-color1:#ffffff;
+    --primary-color2:#d6e2f0;
+    --primary-color3:#7b879d;
+    --primary-color4:#1f3251;
+}
+body  {
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background: var(--primary-color2);
+    display: grid;
+    place-content: center;
+    font-weight: 400;
+}
+
+.container {
+    width: 37.5rem;
+    height: 52rem;
+    background: var(--primary-color1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+   
+    
+}
+
+.qr > figure > img {
+    
+    max-width: 90%;
+    max-height: 100%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.content > h1 {
+    color: var(--primary-color4);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 5rem;
+    
+    
+}
+
+.content > p {
+    color: var(--primary-color3);
+    margin: 0 4.5rem;
+    text-align: center;
+}
