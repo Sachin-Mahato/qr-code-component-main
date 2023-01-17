@@ -80,3 +80,18 @@ body  {
     margin: 0 4.5rem;
     text-align: center;
 }
+
+/* || Big screen */
+
+@media screen and (min-width:1440px) {
+    .container {
+        width: 300px;
+        height: 450px;
+    }
+    .content > h1 {
+        margin: 0 2rem;
+    }
+    .content > p {
+        margin: 0 2.5rem;
+    }
+}
